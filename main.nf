@@ -13,6 +13,12 @@
 params.boston24 = false
 params.help     = false
 
+
+println " __                   ___     __   __   __"
+println "|__` |  | |\\/| |\\/| |  |      __| |  |  __| |__|"
+println ".__| |__| |  | |  | |  |     |__  |__| |__     |"
+println "\n"
+
 if (params.boston24) {
     println "Summit | May 23-24"
     println "https://summit.nextflow.io/2024/boston/agenda/#05-23"
