@@ -10,14 +10,20 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-params.boston24 = false
-params.help     = false
-
+params.barcelona24 = false
+params.boston24    = false
+params.help        = false
 
 println " __                   ___     __   __   __"
 println "|__` |  | |\\/| |\\/| |  |      __| |  |  __| |__|"
 println ".__| |__| |  | |  | |  |     |__  |__| |__     |"
 println "\n"
+
+if (params.barcelona24) {
+    println "Summit | Oct 28 - Nov 01"
+    println "https://summit.nextflow.io/2024/barcelona/agenda/#10-30"
+    System.exit(0)
+}
 
 if (params.boston24) {
     println "Summit | May 23-24"
@@ -34,3 +40,4 @@ if (params.help) {
 println "Available params are:"
 println "  --help: get some help"
 println "  --boston24: get some more information about the 2024 Nextflow Boston Summit"
+println "  --barcelona24: get some more information about the 2024 Nextflow Barcelona Summit"
